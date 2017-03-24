@@ -9,10 +9,17 @@
 /* Begin PBXBuildFile section */
 		1857EC3D1E84BA1500DC3C5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1857EC3C1E84BA1500DC3C5C /* main.m */; };
 		1857EC401E84BA1500DC3C5C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1857EC3F1E84BA1500DC3C5C /* AppDelegate.m */; };
-		1857EC431E84BA1500DC3C5C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1857EC421E84BA1500DC3C5C /* ViewController.m */; };
 		1857EC461E84BA1500DC3C5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1857EC441E84BA1500DC3C5C /* Main.storyboard */; };
 		1857EC481E84BA1500DC3C5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1857EC471E84BA1500DC3C5C /* Assets.xcassets */; };
 		1857EC4B1E84BA1500DC3C5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1857EC491E84BA1500DC3C5C /* LaunchScreen.storyboard */; };
+		1857EC611E84CACC00DC3C5C /* placeholder_image@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1857EC601E84CACC00DC3C5C /* placeholder_image@2x.jpg */; };
+		1857EC721E84D1D400DC3C5C /* GoodsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1857EC651E84D1D400DC3C5C /* GoodsModel.m */; };
+		1857EC731E84D1D400DC3C5C /* GoodsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1857EC681E84D1D400DC3C5C /* GoodsCell.m */; };
+		1857EC741E84D1D400DC3C5C /* GoodsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1857EC691E84D1D400DC3C5C /* GoodsCell.xib */; };
+		1857EC751E84D1D400DC3C5C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1857EC6B1E84D1D400DC3C5C /* ViewController.m */; };
+		1857EC761E84D1D400DC3C5C /* GoodsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1857EC6E1E84D1D400DC3C5C /* GoodsViewModel.m */; };
+		1857EC771E84D1D400DC3C5C /* NetWorkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1857EC711E84D1D400DC3C5C /* NetWorkManager.m */; };
+		32AFC0F8BD6B720CFEB085C7 /* libPods-NetWorkManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DFB7F385041100E0C017BF31 /* libPods-NetWorkManager.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +27,25 @@
 		1857EC3C1E84BA1500DC3C5C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1857EC3E1E84BA1500DC3C5C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1857EC3F1E84BA1500DC3C5C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1857EC411E84BA1500DC3C5C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1857EC421E84BA1500DC3C5C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1857EC451E84BA1500DC3C5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1857EC471E84BA1500DC3C5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1857EC4A1E84BA1500DC3C5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1857EC4C1E84BA1500DC3C5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1857EC601E84CACC00DC3C5C /* placeholder_image@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "placeholder_image@2x.jpg"; sourceTree = "<group>"; };
+		1857EC641E84D1D400DC3C5C /* GoodsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodsModel.h; sourceTree = "<group>"; };
+		1857EC651E84D1D400DC3C5C /* GoodsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodsModel.m; sourceTree = "<group>"; };
+		1857EC671E84D1D400DC3C5C /* GoodsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodsCell.h; sourceTree = "<group>"; };
+		1857EC681E84D1D400DC3C5C /* GoodsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodsCell.m; sourceTree = "<group>"; };
+		1857EC691E84D1D400DC3C5C /* GoodsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GoodsCell.xib; sourceTree = "<group>"; };
+		1857EC6A1E84D1D400DC3C5C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1857EC6B1E84D1D400DC3C5C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1857EC6D1E84D1D400DC3C5C /* GoodsViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodsViewModel.h; sourceTree = "<group>"; };
+		1857EC6E1E84D1D400DC3C5C /* GoodsViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodsViewModel.m; sourceTree = "<group>"; };
+		1857EC701E84D1D400DC3C5C /* NetWorkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkManager.h; sourceTree = "<group>"; };
+		1857EC711E84D1D400DC3C5C /* NetWorkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkManager.m; sourceTree = "<group>"; };
+		294EAE09561B7B9EE3E6068A /* Pods-NetWorkManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetWorkManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-NetWorkManager/Pods-NetWorkManager.release.xcconfig"; sourceTree = "<group>"; };
+		C65D585CFB2F517DABBFB538 /* Pods-NetWorkManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetWorkManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NetWorkManager/Pods-NetWorkManager.debug.xcconfig"; sourceTree = "<group>"; };
+		DFB7F385041100E0C017BF31 /* libPods-NetWorkManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NetWorkManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32AFC0F8BD6B720CFEB085C7 /* libPods-NetWorkManager.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +65,8 @@
 			children = (
 				1857EC3A1E84BA1500DC3C5C /* NetWorkManager */,
 				1857EC391E84BA1500DC3C5C /* Products */,
+				DA8BB4699119AE3C20FE3FED /* Pods */,
+				818832F4E54C1EBFBA3B3D1C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +81,11 @@
 		1857EC3A1E84BA1500DC3C5C /* NetWorkManager */ = {
 			isa = PBXGroup;
 			children = (
+				1857EC601E84CACC00DC3C5C /* placeholder_image@2x.jpg */,
+				1857EC6F1E84D1D400DC3C5C /* NetWork */,
+				1857EC621E84D1D400DC3C5C /* Goods */,
 				1857EC3E1E84BA1500DC3C5C /* AppDelegate.h */,
 				1857EC3F1E84BA1500DC3C5C /* AppDelegate.m */,
-				1857EC411E84BA1500DC3C5C /* ViewController.h */,
-				1857EC421E84BA1500DC3C5C /* ViewController.m */,
 				1857EC441E84BA1500DC3C5C /* Main.storyboard */,
 				1857EC471E84BA1500DC3C5C /* Assets.xcassets */,
 				1857EC491E84BA1500DC3C5C /* LaunchScreen.storyboard */,
@@ -79,6 +103,72 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		1857EC621E84D1D400DC3C5C /* Goods */ = {
+			isa = PBXGroup;
+			children = (
+				1857EC631E84D1D400DC3C5C /* Model */,
+				1857EC661E84D1D400DC3C5C /* ViewController */,
+				1857EC6C1E84D1D400DC3C5C /* ViewModel */,
+			);
+			path = Goods;
+			sourceTree = "<group>";
+		};
+		1857EC631E84D1D400DC3C5C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1857EC641E84D1D400DC3C5C /* GoodsModel.h */,
+				1857EC651E84D1D400DC3C5C /* GoodsModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1857EC661E84D1D400DC3C5C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1857EC671E84D1D400DC3C5C /* GoodsCell.h */,
+				1857EC681E84D1D400DC3C5C /* GoodsCell.m */,
+				1857EC691E84D1D400DC3C5C /* GoodsCell.xib */,
+				1857EC6A1E84D1D400DC3C5C /* ViewController.h */,
+				1857EC6B1E84D1D400DC3C5C /* ViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		1857EC6C1E84D1D400DC3C5C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1857EC6D1E84D1D400DC3C5C /* GoodsViewModel.h */,
+				1857EC6E1E84D1D400DC3C5C /* GoodsViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1857EC6F1E84D1D400DC3C5C /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				1857EC701E84D1D400DC3C5C /* NetWorkManager.h */,
+				1857EC711E84D1D400DC3C5C /* NetWorkManager.m */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		818832F4E54C1EBFBA3B3D1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFB7F385041100E0C017BF31 /* libPods-NetWorkManager.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA8BB4699119AE3C20FE3FED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C65D585CFB2F517DABBFB538 /* Pods-NetWorkManager.debug.xcconfig */,
+				294EAE09561B7B9EE3E6068A /* Pods-NetWorkManager.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +176,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1857EC4F1E84BA1500DC3C5C /* Build configuration list for PBXNativeTarget "NetWorkManager" */;
 			buildPhases = (
+				BBCE9FE7CFDE353AA4A7BCF4 /* [CP] Check Pods Manifest.lock */,
 				1857EC341E84BA1500DC3C5C /* Sources */,
 				1857EC351E84BA1500DC3C5C /* Frameworks */,
 				1857EC361E84BA1500DC3C5C /* Resources */,
+				DB271230206F3FDB81D5C954 /* [CP] Embed Pods Frameworks */,
+				2B23220123D8BC5A6F90C70E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -110,6 +203,7 @@
 				TargetAttributes = {
 					1857EC371E84BA1500DC3C5C = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = EZC4Q938KY;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -137,7 +231,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1857EC611E84CACC00DC3C5C /* placeholder_image@2x.jpg in Resources */,
 				1857EC4B1E84BA1500DC3C5C /* LaunchScreen.storyboard in Resources */,
+				1857EC741E84D1D400DC3C5C /* GoodsCell.xib in Resources */,
 				1857EC481E84BA1500DC3C5C /* Assets.xcassets in Resources */,
 				1857EC461E84BA1500DC3C5C /* Main.storyboard in Resources */,
 			);
@@ -145,14 +241,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2B23220123D8BC5A6F90C70E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NetWorkManager/Pods-NetWorkManager-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBCE9FE7CFDE353AA4A7BCF4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DB271230206F3FDB81D5C954 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NetWorkManager/Pods-NetWorkManager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1857EC341E84BA1500DC3C5C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1857EC431E84BA1500DC3C5C /* ViewController.m in Sources */,
 				1857EC401E84BA1500DC3C5C /* AppDelegate.m in Sources */,
 				1857EC3D1E84BA1500DC3C5C /* main.m in Sources */,
+				1857EC731E84D1D400DC3C5C /* GoodsCell.m in Sources */,
+				1857EC761E84D1D400DC3C5C /* GoodsViewModel.m in Sources */,
+				1857EC771E84D1D400DC3C5C /* NetWorkManager.m in Sources */,
+				1857EC721E84D1D400DC3C5C /* GoodsModel.m in Sources */,
+				1857EC751E84D1D400DC3C5C /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,22 +418,26 @@
 		};
 		1857EC501E84BA1500DC3C5C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C65D585CFB2F517DABBFB538 /* Pods-NetWorkManager.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EZC4Q938KY;
 				INFOPLIST_FILE = NetWorkManager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = fanxiaobin.NetWorkManager;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shitai.NetWorkManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		1857EC511E84BA1500DC3C5C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 294EAE09561B7B9EE3E6068A /* Pods-NetWorkManager.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EZC4Q938KY;
 				INFOPLIST_FILE = NetWorkManager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = fanxiaobin.NetWorkManager;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shitai.NetWorkManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -309,6 +461,7 @@
 				1857EC511E84BA1500DC3C5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
